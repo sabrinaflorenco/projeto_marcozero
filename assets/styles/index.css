@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+body img{
+  font: 400  16px "Roboto",sans-serif;
+}
+header{
+    background-color: lightgrey;
+    display:flex ;
+    justify-content: space-between;
+    padding: 16px;
+    margin-bottom: 16px; 
+}
+
+img{
+    width: 80px;
+}
+ ul{
+    display: flex;
+    height: 100%;
+    text-decoration: none;
+    align-items: center;
+
+}
+nav ul li{
+    padding-left: 16px;
+    list-style-type:none ;
+}
+
+a{
+    text-decoration: none;
+
+}
+/*Main*/
+.main-section{
+    padding: 40px 0 60px;
+}
+.container{
+    max-width: 600px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.titulo-principal{
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 24px;
+}
+.about-movie-image{
+    width: 100%;
+    margin-bottom: 24px;
+    border-radius: 8%;
+
+}
+.section-description{
+    text-align: justify;
+
+}
+.section-description + .section-description{
+    margin-top: 16px;
+}
+.main-footer{
+    background-color: lightgrey;
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;   
+}
+img{
+    width: 30px;
+    margin-bottom: 16px; 
+
+}
+.icon-footer {
+    margin: 2px;
+}
+
